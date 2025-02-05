@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+:root{
+  --base: rgb(31, 100, 202);
+  --base-claro:rgb(32, 108, 180);
+  --base-escuro: rgb(23, 74, 150);
+
+
+  --base-shadow:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+  --detail-w:#ffff;
+}
+
+.text-center{
+  text-align: center;
+}
+.c-light{
+  color: var(--detail-w);
+}
+.radius{
+  border-radius: 50px;
+}
+.p-5{
+  padding: 1rem;
+}
