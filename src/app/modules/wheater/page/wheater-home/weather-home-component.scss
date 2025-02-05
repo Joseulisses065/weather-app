@@ -1,0 +1,23 @@
+.container
+{
+  background-color: var(--base);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search{
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.search input{
+  background-color: var(--base-escuro);
+  border-radius: 50px;
+  padding: 15px;
+  margin-right: 10px;
+  color: var(--detail-w);;
+}
+
